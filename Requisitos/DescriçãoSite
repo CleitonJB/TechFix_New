@@ -1,0 +1,76 @@
+
+Titulo: M&F
+
+===================================================================================================
+
+Descrição:
+
+    O site terá como intuito, oferecer serviços de manuntenção e concerto de computadores, notebook,
+celulares em geral e expandir o mercado de manutenção.
+    Será composto por empresas a fim de divulgar seus serviços e obter um aumento em seus clientes.
+    O site também terá como objetivo oferecer aos consumidores serviços variados, pesquisas por orçamen
+tos e ampla escolha de empresas.
+
+===================================================================================================
+
+
+Descrição (Objetivo):
+
+  
+  Ele terá como função, auxiliar usuários com serviços de manutenção de produtos relacionados a informática, (computadores, notebook,celulares em geral), guiando-os a empresas especializadas neste tipo de serviço. Oferencendo então uma ampla escolha e ajudando-os a encontrar os melhores orçamentos e lojas que demonstrem qualidade.
+     
+======================================================================================================================
+Descrição (Funcionamento):
+
+    No site terá um espaço de cadastro para empresas, assim como para clientes, com requesitos especiais para cada seção.
+ 	Segue abaixo o funcionamento de cada um:
+	
+   	--> Depois de atendidas algumas especifiações(cadastro) do usuário, o mesmo poderá desfrutar dos recursos do site, tais como:
+		. Escolha do produto para manuntenção, que será dividido por categorias;
+		. Procura de empresas, por estado, região;
+		. Avaliações e comentários;
+		. Reclamações;
+		. Participar do fórum;
+		. Acesso a Ajuda, para atendimento das dúvidas do site;
+	--> Depois de atendidas algumas especifiações(cadastro) da empresa, a mesmo poderá desfrutar dos recursos do site, tais como:
+		. "Divulgar" a empresa e site(se houver necessidade) no site;
+		. Responder dúvidas e comentários;
+		. Participar do Forúm;
+=============================================================================================================================
+
+Requisitos funcionais:
+   - A empresa poderá divulgar seu site na M&F;
+   - Cadastro de usuários;
+   - Cadastro de Empresas;
+   - O usuário poderá agendar um dia para que seja feita a manuntenção dos equipamentos.
+   - O usuário e empresas poderão pesquisar por empresas;
+   - O usuário poderá descrever e avaliar empresas;
+   - O sistema deverá gerar um código para cada consulta(orçamento e etc) a determinada empresa;
+   - Usuário terá acesso a perfis das empresas;
+   - O usuário poderá reclamar;
+   - O usuário e empresa poderão participar do forúm;
+   - O usuário pode avaliar a empresa;
+   - o usuário poderá escolher por categorias;
+   - Forúm será uma ferramenta interna;
+   - Perguntas e repostas de usuários e empresas poderão ser excluídas por administradores do forúm;
+   - O usuário poderá ligar para empresa;
+   - O usuário poderá procurar por categorias;
+   - A empresa, assim como o usuário, poderão buscar por ajuda no site;
+   - A empresa poderá responder dúvidas e comentários dos consumidores, seja no forúm ou no própio site;
+   
+
+Requisitos não-funcionais:
+   - A linguagem do site será em HTML;
+   - Informações privadas não serão vizualizadas ao público;
+   - Comprovante de consulta;
+   - Compativél com todos navegadores;
+   - Tempo de Resposta não deverá ultrapassar 50 segundos;
+   - Banco de dados SQL;
+   - Resquisitos de Segurança (https);
+   - LOGIN;
+
+
+
+
+
+
