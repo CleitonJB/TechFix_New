@@ -1,2 +1,2 @@
 # TechFix
-Novo, melhorado e arrumado repositório do projeto TechFix
+Novo, melhorado e arrumado. Bem vindo! Ao novo repositório do projeto TechFix!
