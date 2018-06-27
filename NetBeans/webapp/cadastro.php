@@ -52,7 +52,7 @@
         <div id="signup">   
           <h1>Cadastre-se</h1>
           
-          <form action="cadastrousuario.php" method="post">
+          <form action="cadastroserver.php" method="post">
           
           <div class="top-row">
             <div class="field-wrap">
