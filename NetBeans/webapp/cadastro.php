@@ -28,8 +28,8 @@
 						<ul  style="margin-top: 6px;">
 							<li><a href="index.html" class="active">Home</a></li>
 							<li><a href="x.html">Sobre</a></li>
-							<li><a href="x.html">Empresas</a></li>
-							<li><a href="login.html">Login</a></li>
+							<li><a href="empresas.html">Empresas</a></li>
+							<li><a href="login.php">Login</a></li>
 							<li><a href="cadastro.php">Cadastro</a></li>
 
 
