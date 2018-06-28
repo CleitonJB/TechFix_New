@@ -1,7 +1,3 @@
-<?php
-include("loginserver.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -18,32 +14,32 @@ include("loginserver.php");
 </head>
 
 <body>
-  <div class="tm-header" style="padding-top: 0px;bottom: 0px;top: 0px;border-bottom-width: 10px;padding-bottom: 80px;height: 85px;margin-top: 0px;">
-    <div class="container" style="margin-left: 110px;">
-        <div class="row">
-    <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-            <a href="#" class="tm-site-name">TECHFIX</a>  
-          </div>
-          <div class="col-lg-6 col-md-8 col-sm-9">
-            <div class="mobile-menu-icon">
-                  <i class="fa fa-bars"></i>
-                </div>
-            <nav class="tm-nav" style="width: 700px ;margin-left:500px; position: absolute; top:0px;">
-            <ul style="margin-top: 6px;">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="x.html">Sobre</a></li>
-              <li><a href="x.html">Empresas</a></li>
-              <li><a href="login.jsp">Login</a></li>
-              <li><a href="cadastro.jsp">Cadastro</a></li>
+	<div class="tm-header" style="padding-top: 0px;bottom: 0px;top: 0px;border-bottom-width: 10px;padding-bottom: 80px;height: 85px;margin-top: 0px;">
+		<div class="container" style="margin-left: 110px;">
+  			<div class="row">
+		<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+  					<a href="#" class="tm-site-name">TECHFIX</a>	
+  				</div>
+  				<div class="col-lg-6 col-md-8 col-sm-9">
+	  				<div class="mobile-menu-icon">
+		              <i class="fa fa-bars"></i>
+		            </div>
+	  				<nav class="tm-nav" style="width: 700px ;margin-left:500px; position: absolute; top:0px;">
+						<ul style="margin-top: 6px;">
+							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="x.html">Sobre</a></li>
+							<li><a href="x.html">Empresas</a></li>
+							<li><a href="login.jsp">Login</a></li>
+							<li><a href="cadastro.jsp">Cadastro</a></li>
 
 
 
-            </ul>
-          </nav>    
-          </div>        
-        </div>
-      </div>
-    </div>
+						</ul>
+					</nav>		
+	  			</div>				
+  			</div>
+  		</div>
+  	</div>
 
   <div class="form" style="margin-top: 100px">
       
@@ -52,7 +48,7 @@ include("loginserver.php");
         <div id="login">   
           <h1>Login</h1>
           
-          <form action="loginserver.php" method="post">
+          <form action="LoginUsuario" method="post">
           
             <div class="field-wrap">
             <label>
@@ -70,7 +66,7 @@ include("loginserver.php");
           
           <p class="forgot"><a href="#">Esqueceu a Senha?</a></p>
           
-          <button type="submit" name="submit" class="button button-block"/>Log In</button>
+          <button type="submit" class="button button-block"/>Log In</button>
           
           </form>
 
