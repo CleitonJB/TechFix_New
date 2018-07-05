@@ -48,25 +48,25 @@
         <div id="login">   
           <h1>Login</h1>
           
-          <form action="/" method="post">
+          <form action="LoginUsuario" method="post">
           
             <div class="field-wrap">
             <label>
-              Email<span class="req">*</span>
+              Nome<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"/>
+            <input type="text" name="nome" required autocomplete="off"/>
           </div>
           
           <div class="field-wrap">
             <label>
               Senha<span class="req">*</span>
             </label>
-            <input type="password"required autocomplete="off"/>
+            <input type="password" name="senha" required autocomplete="off"/>
           </div>
           
           <p class="forgot"><a href="#">Esqueceu a Senha?</a></p>
           
-          <button class="button button-block"/>Log In</button>
+          <button type="submit" class="button button-block"/>Log In</button>
           
           </form>
 
