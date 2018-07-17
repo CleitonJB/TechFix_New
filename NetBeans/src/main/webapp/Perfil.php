@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TECHFIX</title>
+    <title>TechFix - Perfil</title>
     <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-            <a href="#" class="tm-site-name">TECHFIX</a>  
+            <a href="Index.html" class="tm-site-name">TECHFIX</a>
           </div>
           <div class="col-lg-6 col-md-8 col-sm-9">
             <div class="mobile-menu-icon">
@@ -31,14 +31,11 @@
                 </div>
             <nav class="tm-nav" style="width: 700px">
             <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">Sobre</a></li>
-              <li><a href="x.html">Empresas</a></li>
-              <li><a href="login.jsp">Perfil</a></li>
-              <li><a href="cadastro.jsp">Cadastro</a></li>
-
-
-
+              <li><a href="Index.html" class="active">Menu</a></li>
+			  <li><a href="Sobre.html">Sobre</a></li>
+			  <li><a href="Empresas.html">Empresas</a></li>
+			  <li><a href="Login.php">Login</a></li>
+			  <li><a href="Cadastro.php">Cadastro</a></li>
             </ul>
           </nav>    
           </div>        
@@ -96,8 +93,8 @@
               <div class="col-sm-8">+1718-111-0011</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Enderesso:</strong></div>
-              <div class="col-sm-8">140, Quissamã, Rio de Janeiro, BR </div>
+              <div class="col-sm-4"><strong class="text-uppercase">Endereço:</strong></div>
+              <div class="col-sm-8">Quissamã, Rio de Janeiro, Brasil </div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Languagem:</strong></div>
@@ -117,7 +114,7 @@
       <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
       <div class="h4 title text-center">Usuário</div>
       <div class="text-center text-muted">
-        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TECHFIX</a></p>
+        <p class="tm-copyright-text">Copyright &copy; 2018 TechFix | Projetado por <a rel="nofollow" href="http://www.templatemo.com" target="_parent">Equipe TechFix!</a></p>
       </div>
     </footer>
     <script src="js/core/jquery.3.2.1.min.js"></script>

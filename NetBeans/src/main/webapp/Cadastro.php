@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>TechFix</title>
+  <title>TechFix - Cadastro</title>
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
@@ -18,7 +18,7 @@
 		<div class="container" style="margin-left: 110px;">
   			<div class="row">
 		<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-  					<a href="#" class="tm-site-name">TECHFIX</a>	
+  					<a href="Index.html" class="tm-site-name">TECHFIX</a>	
   				</div>
   				<div class="col-lg-6 col-md-8 col-sm-9">
 	  				<div class="mobile-menu-icon">
@@ -26,14 +26,10 @@
 		            </div>
 	  				<nav class="tm-nav" style="width: 700px; margin-left: 500px; position: absolute; top:0px; ">
 						<ul  style="margin-top: 6px;">
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="x.html">Sobre</a></li>
-							<li><a href="x.html">Empresas</a></li>
-							<li><a href="login.html">Login</a></li>
-							<li><a href="cadastro.php">Cadastro</a></li>
-
-
-
+							<li><a href="Index.html" class="active">Menu</a></li>
+							<li><a href="Sobre.html">Sobre</a></li>
+							<li><a href="Empresas.html">Empresas</a></li>
+							<li><a href="Login.php">Login</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
