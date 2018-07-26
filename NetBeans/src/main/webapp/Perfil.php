@@ -17,7 +17,7 @@
   <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/templatemo-style.css" rel="stylesheet">
-	<link rel="shortcut icon" href="LogoMarca/22520889_1442280212_1920.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="LogoMarca/Icone.png" type="image/x-icon">
   </head>
   <body id="top">
     <div class="tm-header" style="  top: 40px;">

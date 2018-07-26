@@ -13,7 +13,7 @@ include("loginserver.php");
 
   
       <link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="LogoMarca/22520889_1442280212_1920.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="LogoMarca/Icone.png" type="image/x-icon">
   
 </head>
 
