@@ -22,7 +22,7 @@ include("loginserver.php");
     <div class="container" style="margin-left: 110px;">
         <div class="row">
     <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-            <a href="Index.html" class="tm-site-name">TECHFIX</a>  
+            <img style="position: relative; bottom: 15px;" onclick="location='Index.html'" class="LogoMarca" src="LogoMarca/LogoMarca.png" title="Seja Bem-vindo(a) ao TechFix!"> 
           </div>
           <div class="col-lg-6 col-md-8 col-sm-9">
             <div class="mobile-menu-icon">
@@ -31,9 +31,9 @@ include("loginserver.php");
             <nav class="tm-nav" style="width: 700px ;margin-left:500px; position: absolute; top:0px;">
             <ul style="margin-top: 6px;">
             	<li><a href="Index.html" class="active">Menu</a></li>
-				<li><a href="Sobre.html">Sobre</a></li>
-				<li><a href="Empresas.html">Empresas</a></li>
-				<li><a href="Cadastro.php">Cadastro</a></li>
+      				<li><a href="Sobre.html">Sobre</a></li>
+      				<li><a href="Empresas.html">Empresas</a></li>
+      				<li><a href="Cadastro.php">Cadastro</a></li>
             </ul>
           </nav>    
           </div>        
