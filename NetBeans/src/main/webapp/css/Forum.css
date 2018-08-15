@@ -1,5 +1,5 @@
 body {
-	background: rgba(180, 180 , 0, 0.7);
+	background: #FCDD44;
 }
 
 .Bloquinho {
@@ -28,7 +28,7 @@ body {
 }
 
 dd {
-	color: white;
+	color: black;
 	margin-left: 20px;
 }
 
