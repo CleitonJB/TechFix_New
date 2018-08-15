@@ -216,13 +216,7 @@ http://www.templatemo.com/tm-475-holiday
               <div class="Tituluzinho">
                 <div style="font-size: 18px; position: relative; top: 2px">Comente</div>
               </div>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
-                <p>dadvasudhadhjdadadahjadhjadajdad</p>
+                <textarea name="comentário" rows="10" cols="40"></textarea>
             </dl>
             </div>
 
