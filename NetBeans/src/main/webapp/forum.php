@@ -237,6 +237,10 @@ Após alguns segundos, as partículas das cinzas começaram a se agitar a ponto 
               <dd>Solicitação</dd>
                 <dt>É comum eu ouvir de algumas mães que não vêem a hora do filho crescer e contar pra ela sobre a percepção de ouvir cada som com o IC, tal como eu faço. Ainda que...</dt>
             </dl>
+            <dl class="Topicos">
+              <dd>Debate</dd>
+                <dt>Pousou em meio às rochas. Suas asas se fecharam, seu corpo começava a se esfriar. O peso dos anos fazia suas penas se esfarelarem e sua chama amiudar. Percebeu que era a hora da partida. Olhou para o céu estrelado, morrer era uma das leis da natureza, mas nem por isso era algo bom. </dt>
+            </dl>
           </div>
       </body>
   </html>
