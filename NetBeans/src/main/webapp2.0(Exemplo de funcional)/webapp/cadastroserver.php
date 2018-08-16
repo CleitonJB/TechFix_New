@@ -24,7 +24,7 @@
 	
 	
 	
-	$sql = "INSERT INTO usuario(nome, email, senha, cpf, rg, estado, cidade) VALUES ('$nome', '$email', '$senha', '$cpf', '$rg', '$estado', '$cidade')";
+	$sql = "INSERT INTO usuario (nome, email, senha, cpf, rg, estado, cidade) VALUES ('$nome', '$email', '$senha', '$cpf', '$rg', '$estado', '$cidade')";
 	
 	if(!mysqli_query($con,$sql))
 	{
@@ -34,7 +34,7 @@
 	{
 		echo 'Cadastro realizado'; 
 
-		header("Location: login.php");
+		header("Location: Login.php");
 	}
 	
 ?>

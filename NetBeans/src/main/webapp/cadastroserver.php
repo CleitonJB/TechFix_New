@@ -1,14 +1,14 @@
 
 <?php
 
-	$con = mysqli_connect('localhost','root', 'root');
+	$con = mysqli_connect('127.0.0.1','root', 'root');
 	
 	if(!$con)
 	{
 		echo 'erro';
 	}
 	
-	if(!mysqli_select_db($con, 'techfix'))
+	if(!mysqli_select_db($con, 'Tech'))
 	{
 		echo 'Banco de dados não foi encontrado';
 	}
@@ -24,7 +24,7 @@
 	
 	
 	
-	$sql = "INSERT INTO usuario(nome, email, senha, cpf, rg, estado, cidade) VALUES ('$nome', '$email', '$senha', '$cpf', '$rg', '$estado', '$cidade')";
+	$sql = "INSERT INTO usuario (nome, email, senha, cpf, rg, estado, cidade) VALUES ('$nome', '$email', '$senha', '$cpf', '$rg', '$estado', '$cidade')";
 	
 	if(!mysqli_query($con,$sql))
 	{
@@ -34,7 +34,7 @@
 	{
 		echo 'Cadastro realizado'; 
 
-		header("Location: login.php");
+		header("Location: Login.php");
 	}
 	
 ?>

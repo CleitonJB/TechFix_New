@@ -13,7 +13,7 @@ $pass=$_POST['senha'];
 	 //Deixa o nome do host normal...Root tambem...Se você estiver na escola....Coloca "root" nos "" sem nada...
 	 $conn = mysqli_connect("localhost", "root", "root");
 	 //Entre os "coloca o nome do BD"
-	 $db = mysqli_select_db($conn, "techfix");
+	 $db = mysqli_select_db($conn, "Tech");
 	 
 	 
 	 $query = mysqli_query($conn, "SELECT * FROM usuario WHERE senha='$pass' AND email='$user'");
