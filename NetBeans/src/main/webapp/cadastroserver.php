@@ -1,14 +1,14 @@
 
 <?php
 
-	$con = mysqli_connect('127.0.0.1','root', 'root');
+	$con = mysqli_connect('localhost','root', 'root');
 	
 	if(!$con)
 	{
 		echo 'erro';
 	}
 	
-	if(!mysqli_select_db($con, 'Tech'))
+	if(!mysqli_select_db($con, 'techfix'))
 	{
 		echo 'Banco de dados não foi encontrado';
 	}
