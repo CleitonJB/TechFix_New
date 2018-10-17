@@ -1,56 +1,35 @@
 .TodosProdutos{
-	padding-top: 30px;
-	padding-bottom: 50px;
-	background: white;
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
+	align-content: center;
 }
 
-.EsquerdaProdutos{
-	z-index: 1;
-	margin-left: 100px;
-	margin-right: 100px;
-	position: relative;
-	float: left;
+.Seção{
+	width: 100%;
+	height: 320px;
+	margin-left: 110px;
+	border-bottom: 0.1px solid gray;
+	overflow-y: none;
 }
 
-.CentroProdutos{
-	position: relative;
-	float: center;
-	right: 45px;
+.Seção h3{
+	color: gray;
 }
 
-.DireitaProdutos{
-	bottom: 1160px;
-	margin-left: 100px;
-	margin-right: 100px;
-	position: relative;
-	float: right;
+.Seção img{
+	color: gray;
+}
+
+.Seção p{
+	text-align: center;
+	color: gray;
+}
+
+.Seção h5{
+	color: green;
 }
 
 .Produtos{
-}
-
-.Produtos img{
-	box-shadow: 1px 5px 10px gray;
-	margin-top: 20px;
-	width: 320px;
-	height: 220px;
-	transition: box-shadow 0.5s;
-
-}
-
-.Produtos p{
-	align-content: center;
-	box-shadow: 1px 5px 10px gray;
-	padding: 5px;
-	width: 320px;
-	max-height: 40px;
-	overflow-y: scroll;
-	transition: box-shadow 0.5s;
-}
-
-.Produtos p:hover, .Produtos img:hover{
-	box-shadow: 1px 5px 10px black;
-	transition: box-shadow 0.5s;
+	border-radius: 10px;
+	background: white;
+	width: 200px;
+	height: 270px;
 }
