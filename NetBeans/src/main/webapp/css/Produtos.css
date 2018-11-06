@@ -16,13 +16,15 @@ h1:hover{
 }
 
 h6{
+	position: relative;
+	padding-bottom: 0px;
 	font-size: 21px;
 	color: black;
 	text-align: center;
 }
 
 footer{
-
+	
 }
 
 .TodosProdutos{
