@@ -56,7 +56,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/usua.jpg" alt="Image"/></a></div>
           <div class="h2 title">Usuário</div><br>
-          <p class="category text-white">Desenvolvedor web, Designer, Técnico em manutenção </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Constratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
+          <p class="category text-white">Desenvolvedor web, Designer, Técnico em manutenção </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
         </div>
       </div>
       <div class="section">
@@ -75,7 +75,7 @@
           <div class="card-body">
             <div class="h4 mt-0 title">Sobre</div>
             <p>Olá! Eu sou Anthony Barnett. Desenvolvedor Web, Designer Gráfico e Técnico em manutenção.</p>
-            <p>.O CV criativo é um modelo de currículo HTML para profissionais. Construído com Bootstrap 4, agora UI Kit e FontAwesome, este modelo de design moderno e responsivo é perfeito para mostrar seu portfólio, habilidades e experiência.<a href="https://templateflip.com/templates/creative-cv/" target="_blank">Saber mais</a></p>
+            <p>O CV criativo é um modelo de currículo HTML para profissionais. Construído com Bootstrap 4, agora UI Kit e FontAwesome, este modelo de design moderno e responsivo é perfeito para mostrar seu portfólio, habilidades e experiência. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Saber mais</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -84,21 +84,43 @@
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Idade:</strong></div>
               <div class="col-sm-8">24</div>
+
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">E-mail:</strong></div>
               <div class="col-sm-8">usuario@company.com</div>
+
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Senha:</strong></div>
+              <div class="col-sm-8">****** </div>
+            
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Telefone:</strong></div>
               <div class="col-sm-8">+1718-111-0011</div>
+
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Endereço:</strong></div>
               <div class="col-sm-8">Quissamã, Rio de Janeiro, Brasil </div>
+
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Linguagem:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Nascimento:</strong></div>
+              <div class="col-sm-8">26/04/1998</div>
+            </div>
+            
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">CPF:</strong></div>
+              <div class="col-sm-8">123456789-01 </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">RG:</strong></div>
+              <div class="col-sm-8">123456789-01 </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Linguagens:</strong></div>
               <div class="col-sm-8">Português, English, German </div>
             </div>
           </div>
