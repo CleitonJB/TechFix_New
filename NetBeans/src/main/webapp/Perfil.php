@@ -56,7 +56,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/usua.jpg" alt="Image"/></a></div>
           <div class="h2 title">Usuário</div><br>
-          <p class="category text-white">Desenvolvedor web, Designer, Técnico em manutenção </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
+          <p class="category text-white">Desenvolvedor web, Designer, Técnico em manutenção: Luiza</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
         </div>
       </div>
       <div class="section">
