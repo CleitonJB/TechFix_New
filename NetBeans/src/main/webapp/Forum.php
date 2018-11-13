@@ -50,7 +50,7 @@
   	</div>
 
     <!-- Menu lateral com as empresas por região -->
-    <aside> 
+    <aside class="MenuLateral"> 
       <dl>
         <dt>Empresas</dt>
           <dd onclick="window.open('Index.html')">Acre</dd>
@@ -83,7 +83,7 @@
       </dl>
     </aside>
 
-    <div style="margin-top: 50px;"> 
+    <div class="TodosComentarios"> 
 
             <dl class="Topicos">
               <dd>Reclamação</dd>
@@ -93,7 +93,7 @@
             <dl class="Topicos">
               <dd>Solicitação</dd>
                 <dt>Guinchou fracamente, seu fogo apagou, seu corpo caiu no chão e se transformou em cinzas negras.
-Após alguns segundos, as partículas das cinzas começaram a se agitar a ponto de queimarem. Juntaram-se em um redemoinho de fogo para formar um novo ser. Das chamas surgiu uma nova ave a piar sons melancólicos.</dt>
+                Após alguns segundos, as partículas das cinzas começaram a se agitar a ponto de queimarem. Juntaram-se em um redemoinho de fogo para formar um novo ser. Das chamas surgiu uma nova ave a piar sons melancólicos.</dt>
             </dl>
 
             <dl class="Topicos">
