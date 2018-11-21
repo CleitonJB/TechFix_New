@@ -1,3 +1,14 @@
+<?php
+   header("Content-Type: text/html; charset=ISO-8859-1",true);
+   require_once("functions.php");
+   seguranca();
+   $username = $_SESSION['user']['username'];
+   $nome = $_SESSION['user']['nome'];
+   $email = $_SESSION['user']['email'];
+
+   //ISSO DEVE ESTAR NO INICIO DE CADA PÁGINA QUE O USUÁRIO USAR APÓS O LOGIN
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -55,7 +66,7 @@
       <div class="container">
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/usua.jpg" alt="Image"/></a></div>
-          <div class="h2 title">Usuário</div><br>
+          <div class="h2 title"><?php echo $nome ?></div><br>
           <p class="category text-white">Desenvolvedor web, Designer, Técnico em manutenção: Luiza</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
         </div>
       </div>
