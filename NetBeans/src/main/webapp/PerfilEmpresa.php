@@ -1,3 +1,15 @@
+<?php
+   header("Content-Type: text/html; charset=ISO-8859-1",true);
+   require_once("functions.php");
+   seguranca();
+   $username = $_SESSION['user']['username'];
+   $nome = $_SESSION['user']['nome'];
+   $email = $_SESSION['user']['email'];
+   $endereco = $_SESSION['user']['endereco'];
+
+   //ISSO DEVE ESTAR NO INICIO DE CADA PÁGINA QUE O USUÁRIO USAR APÓS O LOGIN
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -55,7 +67,7 @@
       <div class="container">
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/usua.jpg" alt="Image"/></a></div>
-          <div class="h2 title">Empresa</div><br>
+          <div class="h2 title"><?php echo $nome ?></div><br>
           <p class="category text-white"> Consertamos: Computadores, notebooks, celulares e impressoras </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
         </div>
       </div>
@@ -82,7 +94,7 @@
             <div class="h4 mt-0 title">Informações Básicas</div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Nome:</strong></div>
-              <div class="col-sm-8">TechFix Corporation</div>
+              <div class="col-sm-8"><?php echo $username?></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Fundação:</strong></div>
@@ -102,7 +114,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Endereço:</strong></div>
-              <div class="col-sm-8">Quissamã, Rio de Janeiro, Brasil </div>
+              <div class="col-sm-8"><?php echo $endereco?> </div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Origem:</strong></div>

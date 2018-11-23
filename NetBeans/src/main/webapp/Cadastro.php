@@ -121,14 +121,14 @@
         <div id="login">   
           <h1>Cadastre sua empresa</h1>
           
-          <form action="/" method="post">
+          <form action="Cadastrocompany.php" method="post">
           
             <div class="top-row">
             <div class="field-wrap">
               <label>
                 Nome<span class="req">*</span>
               </label>
-              <input type="text" required autocomplete="off" />
+              <input type="text" name = "nome" required autocomplete="off" />
             </div>
         
             <div class="field-wrap">
@@ -140,28 +140,28 @@
             <label>
               Email<span class="req">*</span>
             </label>
-            <input type="email" required autocomplete="off"/>
+            <input type="email" name="email" required autocomplete="off"/>
           </div>
           
           <div class="field-wrap">
             <label>
               Senha<span class="req">*</span>
             </label>
-            <input type="password" required autocomplete="off"/>
+            <input type="password" name="senha" required autocomplete="off"/>
           </div>
 
             <div class="field-wrap">
             <label>
               CNPJ<span class="req">*</span>
             </label>
-            <input type="number" required autocomplete="off"/>
+            <input type="number" name="cnpj" required autocomplete="off"/>
           </div>
 
             <div class="field-wrap">
             <label>
               Endereço <span class="req">*</span>
             </label>
-            <input type="text" required autocomplete="off"/>
+            <input type="text" name="endereco" required autocomplete="off"/>
           </div>
           
           <button type="submit" class="button button-block"/>Cadastre-se</button>

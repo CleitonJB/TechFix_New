@@ -46,7 +46,7 @@
         <div id="login">   
           <h1>Login</h1>
           
-          <form action="logs.php" method="post">
+          <form action="loginemp.php" method="post">
           
             <div class="field-wrap">
             <label>
