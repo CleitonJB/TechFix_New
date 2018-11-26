@@ -40,7 +40,7 @@ function  comentar ($descricao, $cod_publicacao, $email){
         $descricao = $_POST['comentario'];
         comentar($descricao, $cod_publicacao, $email);
       } else {
-        $message= '<h1>Por favor, preencha os campos corretamente.</h1><h3> <a href="publicacao.php">Tente Novamente</a></h3>';
+        $message = '<h1>Por favor, preencha os campos corretamente.</h1><h3> <a href="publicacao.php">Tente Novamente</a></h3>';
         echo $message;
       }
 

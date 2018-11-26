@@ -84,7 +84,7 @@
     </aside>
 
     <div class="CampoComentario">
-      <form action="Postar_Comentario.php" method="POST">
+      <form action="postcomentario.php" method="POST">
         <input type="text" name="nome" value="Seu nome">
         </br>
         <textarea name="comentario" cols="50" rows="5">Insira um comentário</textarea>
