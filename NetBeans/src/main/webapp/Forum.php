@@ -24,6 +24,11 @@
       <link href="css/Forum.css" rel="stylesheet">
   </head>
   <body>
+
+    <?php
+      $link=mysql_connect("localhost",'root','root');
+      $banco=mysql_select_db("Tech");
+    ?>
   	<!-- Header -->
   	<div class="tm-header">
   		<div class="container">
@@ -84,11 +89,12 @@
     </aside>
 
     <div class="CampoComentario">
-      <form action="postcomentario.php" method="POST">
-        <input type="text" name="nome" value="Seu nome">
+      <form name="Postar_Comentario.php" method="POST" action="#">
+        <input type="text" name="nome" value="">
         </br>
-        <textarea name="comentario" cols="50" rows="5">Insira um comentário</textarea>
+        <textarea name="comentario" cols="50" rows="5"></textarea>
         <input type="submit" value="Comentar">
+        <input type="reset" value="Limpar">
       </form>
     </div>
 
