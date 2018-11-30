@@ -86,14 +86,48 @@
       </dl>
     </aside>
 
-    <div class="CampoComentario">
-      <form action="postcomentario.php" method="POST">
-        <input type="text" name="nome" value="Seu nome">
-        </br>
-        <textarea name="comentario" cols="50" rows="5">Insira um comentário</textarea>
-        <input type="submit" value="Comentar">
-      </form>
-    </div>
+    <form name="form" method="post" action="#">
+      Nome:
+      <input type=text name="nome">
+      <br><br>
+      E-Mail:
+      <input type=text name="email">
+      <br><br>
+      Mensagem:
+      <br><textarea name="comentario"></textarea>
+      <br><br>
+      <input type="submit" value="Enviar" value=Enviar>
+      <input type="reset" value="Limpar" type=reset value=Limpar>
+    </form>
+
+    <?php
+
+      $link=mysql_connect("localhost",'root','root');
+      $banco=mysql_select_db("bdcomentarios");
+
+      $nome=$_POST['nome'];
+      $email=$_POST['email'];
+      $data = date("Y/m/d");           
+      $comentario=$_POST['comentario']; 
+      if(strlen($_POST['nome'])) #insere somente se no form foi escrito o nome
+      {
+          $insert = mysql_query("INSERT INTO tbcomentarios(nome,email,data,comentario) 
+          values('$nome','$email','$data','$comentario')");
+      }
+      $sql = "SELECT * FROM tbcomentarios ORDER BY id desc";
+      $executar=mysql_query($sql);
+      while( $exibir = mysql_fetch_array($executar)){
+          echo $exibir['data'];
+          echo "</br>";
+          echo $exibir['nome'];
+          echo "</br>";
+          echo $exibir['email'];
+          echo "</br>";
+          echo $exibir['comentario'];
+          echo "</br><hr>";
+      }
+    ?>
+    <hr>
 
     <div class="TodosComentarios"> 
 
