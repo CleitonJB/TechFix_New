@@ -27,6 +27,11 @@
       <link href="css/Forum.css" rel="stylesheet">
   </head>
   <body>
+
+    <?php
+      $link=mysql_connect("localhost",'root','root');
+      $banco=mysql_select_db("Tech");
+    ?>
   	<!-- Header -->
   	<div class="tm-header">
   		<div class="container">
@@ -86,6 +91,7 @@
       </dl>
     </aside>
 
+<<<<<<< HEAD
     <form name="form" method="post" action="#">
       Nome:
       <input type=text name="nome">
@@ -128,6 +134,17 @@
       }
     ?>
     <hr>
+=======
+    <div class="CampoComentario">
+      <form name="Postar_Comentario.php" method="POST" action="#">
+        <input type="text" name="nome" value="">
+        </br>
+        <textarea name="comentario" cols="50" rows="5"></textarea>
+        <input type="submit" value="Comentar">
+        <input type="reset" value="Limpar">
+      </form>
+    </div>
+>>>>>>> fdb0778309662ca3d38caaea5c847fe7753a79b7
 
     <div class="TodosComentarios"> 
 
