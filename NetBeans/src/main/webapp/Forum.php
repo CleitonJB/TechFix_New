@@ -28,10 +28,6 @@
   </head>
   <body>
 
-    <?php
-      $link=mysql_connect("localhost",'root','root');
-      $banco=mysql_select_db("Tech");
-    ?>
   	<!-- Header -->
   	<div class="tm-header">
   		<div class="container">
@@ -91,7 +87,6 @@
       </dl>
     </aside>
 
-<<<<<<< HEAD
     <form name="form" method="post" action="#">
       Nome:
       <input type=text name="nome">
@@ -100,41 +95,13 @@
       <input type=text name="email">
       <br><br>
       Mensagem:
-      <br><textarea name="comentario"></textarea>
+      <br><textarea name="comentario"><?php echo $linha['comentario']?></textarea>
       <br><br>
       <input type="submit" value="Enviar" value=Enviar>
       <input type="reset" value="Limpar" type=reset value=Limpar>
     </form>
-
-    <?php
-
-      $link=mysql_connect("localhost",'root','root');
-      $banco=mysql_select_db("bdcomentarios");
-
-      $nome=$_POST['nome'];
-      $email=$_POST['email'];
-      $data = date("Y/m/d");           
-      $comentario=$_POST['comentario']; 
-      if(strlen($_POST['nome'])) #insere somente se no form foi escrito o nome
-      {
-          $insert = mysql_query("INSERT INTO tbcomentarios(nome,email,data,comentario) 
-          values('$nome','$email','$data','$comentario')");
-      }
-      $sql = "SELECT * FROM tbcomentarios ORDER BY id desc";
-      $executar=mysql_query($sql);
-      while( $exibir = mysql_fetch_array($executar)){
-          echo $exibir['data'];
-          echo "</br>";
-          echo $exibir['nome'];
-          echo "</br>";
-          echo $exibir['email'];
-          echo "</br>";
-          echo $exibir['comentario'];
-          echo "</br><hr>";
-      }
-    ?>
     <hr>
-=======
+
     <div class="CampoComentario">
       <form name="Postar_Comentario.php" method="POST" action="#">
         <input type="text" name="nome" value="">
@@ -144,7 +111,6 @@
         <input type="reset" value="Limpar">
       </form>
     </div>
->>>>>>> fdb0778309662ca3d38caaea5c847fe7753a79b7
 
     <div class="TodosComentarios"> 
 
