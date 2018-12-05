@@ -26,18 +26,11 @@
 				<input type="submit" value="Enviar" />
 			</div>
 		</form>
-
+		<!--
 		<?php
 		
 			require('conexao.php');
 
-			$tabela = mysql_query("SELECT * FROM comentarios ORDER BY id DESC");
-			$exibir = mysql_fetch_array($tabela);
-			while($exibir = mysql_fetch_array($tabela)){
-				echo $exibir['nome'];
-				echo $exibir['email'];
-				echo $exibir['comentario'];
-			}
-		?>
+		?> -->
 	</body>
 </html>
