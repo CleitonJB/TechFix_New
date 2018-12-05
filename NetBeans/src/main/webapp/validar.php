@@ -23,8 +23,8 @@
 
 			$tabela = mysqli_query($conectar, "SELECT * FROM comentarios ORDER BY id DESC");
 			$tabela = mysqli_query($conectar, "INSERT INTO comentarios (nome, email, comentario) VALUES ('$nome','$email','$comentario')");
-			$exibir = mysqli_fetch_array($tabela);
-				while($exibir = mysqli_fetch_array($tabela)){
+			$exibir = mysqli_fetch_array($tabela, MYSQLI_NUM);
+				while($exibir = mysqli_fetch_array($tabela, MYSQLI_NUM)){
 					echo $exibir['nome'];
 					echo $exibir['email'];
 					echo $exibir['comentario'];
