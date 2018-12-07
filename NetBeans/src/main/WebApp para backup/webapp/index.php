@@ -26,18 +26,11 @@
 				<input type="submit" value="Enviar" />
 			</div>
 		</form>
-		
+		<!--
 		<?php
 		
 			require('conexao.php');
 
-			while ($employee = mysqli_fetch_assoc($records)) {
-				echo $employee['nome'];
-				echo $employee['email'];
-				echo $employee['comentario'];
-
-			}
-
-		?>
+		?> -->
 	</body>
 </html>

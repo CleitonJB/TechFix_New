@@ -1,5 +1,4 @@
 <html>
-<meta charset="utf-8">
 	<head><title>Sistema de comentário =D</title>
 	<!-- <script>alert("será?")</script> -->
 	</head>
@@ -13,32 +12,34 @@
 			$email = $_POST['email'];
 			$comentario = $_POST['comentario'];
 
-			if($nome == ""){
+
+			if(empty($nome)){
 				echo '<script>alert("Atenção! O campo nome não pode ficar vazio.")</script>';
-			} else if($email == ""){
+			} else if(empty($email)){
 				echo '<script>alert("Atenção! O campo email não pode ficar vazio.")</script>';
-			} else if($comentario == ""){
+			} else if(empty($comentario)){
 				echo '<script>alert("Atenção! O campo comentario não pode ficar vazio.")</script>';
 			}
 
+			$tabela = mysqli_query($conectar, "SELECT * FROM comentarios ORDER BY id DESC");
 			$tabela = mysqli_query($conectar, "INSERT INTO comentarios (nome, email, comentario) VALUES ('$nome','$email','$comentario')");
+			$exibir = mysqli_fetch_array($tabela, MYSQLI_NUM);
+				while($exibir = mysqli_fetch_array($tabela, MYSQLI_NUM)){
+					echo $exibir['nome'];
+					echo $exibir['email'];
+					echo $exibir['comentario'];
+				}
 
-			//Mostrar os comentários na tela (gambiarra organizada)
-			$sql = "SELECT * FROM comentarios";
-			$records = mysqli_query($sql);
-			
-			if(!mysqli_query($conectar, $tabela))
-			{
-				echo '<script>alert("Comentário não cadastrado")</script>';
-			}
-			else 
-			{
-				echo '<script>alert("Comentário cadastrado")</script>'; 
+				if(!mysqli_query($conectar,$tabela))
+				{
+					echo 'cadastro não realizado';
+				}
+				else 
+				{
+					echo 'Cadastro realizado'; 
 
-				header("Location: Index.html");
-			}
+					header("Location: Index.php");
+				}
 		?>
-
-		<!-- https://www.youtube.com/watch?v=IHdd02IK2Jg  Mostrar informações do banco de dados na tela -->
 	</body>
 </html>
