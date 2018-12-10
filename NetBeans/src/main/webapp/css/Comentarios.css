@@ -1,0 +1,33 @@
+body{
+
+}
+
+label{
+	color: gray;
+}
+
+input, textarea{
+	background: black;
+	border-radius: 10px;
+	color: white;
+	border: 1px solid #1ab188;
+}
+
+.Botoes{
+	width: 90px;
+	height: 25px;
+}
+
+.CampoComentarios{
+	padding: 15px;
+	background: black;
+	width: 500px;
+	border-radius: 10px;
+	border: 1px solid #1ab188;
+}
+
+.Campos input[type=text]{
+	color: white;
+	width: ;
+	height: 25px;
+}

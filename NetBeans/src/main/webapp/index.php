@@ -3,28 +3,36 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Sistema de comentário</title>
+		<link rel="stylesheet" type="text/css" href="css/Comentarios.css">
 	</head>
 	<body>
-		<!-- https://inatitude.wordpress.com/2010/12/06/tutorial-php-sistema-de-comentarios/ -->
+		<!-- Link de tutorial que não lembro: https://inatitude.wordpress.com/2010/12/06/tutorial-php-sistema-de-comentarios/ -->
 		<h1>Digite seu comentário - Funciona criatura divina</h1>
 
-		<form method="post" action="validar.php">
-			<div>Nome: </div>
+		<div class="CampoComentarios">
+			<form class="Campos" method="post" action="validar.php">
 				<div>
-					<input type="text" name="nome" />
+					<label>Nome:<span class="req">*</span></label>
+					<input type="text" name="nome" value="Nome:" required autocomplete="off"/>
 				</div>
-			<div>Email: </div>
+
 				<div>
-					<input type="text" name="email" />
+					<label>Email:<span class="req">*</span></label>
+					<input type="text" name="email" required autocomplete="off"/>
 				</div>
-			<div>Comentário: </div>
+
 				<div>
-					<textarea cols="30" rows="5" name="comentario"></textarea>
+					<label>Comentário:<span class="req">*</span></label>
+					<textarea cols="60" rows="7" name="comentario" required autocomplete="off"></textarea>
 				</div>
-			<hr/>
-			<div>
-				<input type="submit" value="Enviar" />
-			</div>
-		</form>
+
+				<hr/>
+
+				<div>
+					<input class="Botoes" type="submit" value="Enviar" />
+					<input class="Botoes" type="reset" value="Apagar" />
+				</div>
+			</form>
+		</div>
 	</body>
 </html>

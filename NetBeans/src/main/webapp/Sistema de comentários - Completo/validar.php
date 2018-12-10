@@ -1,8 +1,7 @@
-<!-- Está cadastrando, mas tenho que ver porque informa que não cadastrou -->
-
 <html>
 <meta charset="utf-8">
 	<head><title>Sistema de comentário =D</title>
+	<!-- <script>alert("será?")</script> -->
 	</head>
 	<body>
 		teoricamente foi... <br>
@@ -24,6 +23,17 @@
 			}else if ($nome != '' && $email != '' && $comentario != '') {
 				$tabela = mysqli_query($conectar, "INSERT INTO comentarios (nome, email, comentario) VALUES ('$nome','$email','$comentario')");
 			}
+
+			/*Mostrar os comentários na tela (gambiarra organizada)
+			$sql = "SELECT * FROM comentarios";
+			$records = mysqli_query($sql);
+
+			while ($employee = mysqli_fetch_assoc($records)) {
+				echo $employee['nome'];
+				echo $employee['email'];
+				echo $employee['comentario'];
+			}
+			*/
 
 			if(!mysqli_query($conectar, $tabela))
 			{
