@@ -29,7 +29,7 @@
 							<li><a href="Index.html" class="active">Menu</a></li>
 							<li><a href="Sobre.html">Sobre</a></li>
 							<li><a href="Empresas.html">Empresas</a></li>
-							<li><a href="Login.php">Login</a></li>
+							<li><a href="login_usu_e_emp.php">Login</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
@@ -126,14 +126,37 @@
             <div class="top-row">
             <div class="field-wrap">
               <label>
-                Nome<span class="req">*</span>
+                Nome da empresa<span class="req">*</span>
               </label>
               <input type="text" name = "nome" required autocomplete="off" />
             </div>
         
-            <div class="field-wrap">
-             
-            </div>
+        <div class="field-wrap">
+            <label>
+              Username<span class="req">*</span>
+            </label>
+            <input type="text" name="username" required autocomplete="off"/>
+          </div>
+
+         <div class="field-wrap">
+            <label>
+              Senha<span class="req">*</span>
+            </label>
+            <input type="password" name="senha" required autocomplete="off"/>
+          </div>
+          
+          <!--<div class="field-wrap">
+            <label>
+              Fundação<span class="req">*</span>
+            </label>
+            <input type="text" name="fundacao" required autocomplete="off"/>
+          </div>-->
+
+          <div class="field-wrap">
+            <label>
+              Fundador<span class="req">*</span>
+            </label>
+            <input type="text" name="fundador" required autocomplete="off"/>
           </div>
 
           <div class="field-wrap">
@@ -143,13 +166,6 @@
             <input type="email" name="email" required autocomplete="off"/>
           </div>
           
-          <div class="field-wrap">
-            <label>
-              Senha<span class="req">*</span>
-            </label>
-            <input type="password" name="senha" required autocomplete="off"/>
-          </div>
-
             <div class="field-wrap">
             <label>
               CNPJ<span class="req">*</span>
@@ -162,6 +178,34 @@
               Endereço <span class="req">*</span>
             </label>
             <input type="text" name="endereco" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Estado<span class="req">*</span>
+            </label>
+            <input type="text" name="estado" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Cidade<span class="req">*</span>
+            </label>
+            <input type="text" name="cidadeemp" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Bairro<span class="req">*</span>
+            </label>
+            <input type="text" name="bairro" required autocomplete="off"/>
+          </div>
+
+           <div class="field-wrap">
+            <label>
+              Telefone<span class="req">*</span>
+            </label>
+            <input type="text" name="telefone" required autocomplete="off"/>
           </div>
           
           <button type="submit" class="button button-block"/>Cadastre-se</button>

@@ -1,5 +1,5 @@
 <?php
-	require_once("config.php"); //É A CONEXÃO PADRÃO
+	require_once("configemp.php"); //É A CONEXÃO PADRÃO
 
 
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') { 
@@ -48,6 +48,13 @@
 			$_SESSION['user']['nome'] = $user['nome'];
 			$_SESSION['user']['email'] = $user['email'];
 			$_SESSION['user']['endereco'] = $user['endereco'];
+			$_SESSION['user']['fundador'] = $user['fundador'];
+			$_SESSION['user']['cnpj'] = $user['cnpj'];
+			$_SESSION['user']['estado'] = $user['estado'];
+			$_SESSION['user']['cidadeemp'] = $user['cidadeemp'];
+			$_SESSION['user']['bairro'] = $user['bairro'];
+			$_SESSION['user']['telefone'] = $user['telefone'];
+			
 			
 			//AQUI AGORA VAI FICAR TODAS ENTIDADES DA TABELA
 
