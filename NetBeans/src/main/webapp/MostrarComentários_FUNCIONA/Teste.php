@@ -12,9 +12,9 @@
 
 			// Criando conexão com o banco de dados
 			$conn = new mysqli($server, $usuario, $senha, $banco);
-			// CHecando a conexão com o banco de dados
+			// Checando a conexão com o banco de dados
 			if ($conn->connect_error) {
-			    die("Connection failed: " . $conn->connect_error);
+			    die("Erro na conexão: " . $conn->connect_error);
 			}
 		?>
 
@@ -45,6 +45,7 @@
 			.Nome{
 				color: #1CCA96;
 				margin-right: 10px;
+				text-shadow: 1px 2px 2px gray;
 			}
 
 			.Email{

@@ -2,32 +2,55 @@ body{
 
 }
 
+h2{
+	margin-top: 0px;
+	color: white;
+}
+
 label{
-	color: gray;
+	color: white;
+	padding: 2px;
 }
 
 input, textarea{
+	padding: 2px;
 	background: black;
-	border-radius: 10px;
+	border-radius: 5px;
 	color: white;
 	border: 1px solid #1ab188;
-}
-
-.Botoes{
-	width: 90px;
-	height: 25px;
 }
 
 .CampoComentarios{
 	padding: 15px;
 	background: black;
-	width: 500px;
+	width: 335px;
 	border-radius: 10px;
-	border: 1px solid #1ab188;
+	border: 2px solid #1ab188;
 }
 
-.Campos input[type=text]{
+.Botoes{
+	margin-top: 15px;
+}
+
+.Botoes input[type=reset]{
+	float: right;
+}
+
+.Botoes input{
+	width: 90px;
+	height: 25px;
+}
+
+.Formulario input[type=text]{
 	color: white;
 	width: ;
 	height: 25px;
+}
+
+.Campos{
+	margin-top: 15px;
+}
+
+.Campos input{
+	width: 330px;
 }

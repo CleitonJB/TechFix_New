@@ -10,27 +10,26 @@
 		<h1>Digite seu comentário - Funciona criatura divina</h1>
 
 		<div class="CampoComentarios">
-			<form class="Campos" method="post" action="validar.php">
-				<div>
-					<label>Nome:<span class="req">*</span></label>
-					<input type="text" name="nome" value="Nome:" required autocomplete="off"/>
+			<form class="Formulario" method="post" action="validar.php">
+				<h2>----- Comente abaixo -----</h2>
+				<div class="Campos">
+					<label>Nome:</label> <br>
+					<input type="text" name="nome" required autocomplete="off"/>
 				</div>
 
-				<div>
-					<label>Email:<span class="req">*</span></label>
+				<div class="Campos">
+					<label>Email:</label> <br>
 					<input type="text" name="email" required autocomplete="off"/>
 				</div>
 
-				<div>
-					<label>Comentário:<span class="req">*</span></label>
-					<textarea cols="60" rows="7" name="comentario" required autocomplete="off"></textarea>
+				<div class="Campos">
+					<label>Comentário:</label> <br>
+					<textarea cols="45" rows="7" name="comentario" required autocomplete="off"></textarea>
 				</div>
 
-				<hr/>
-
-				<div>
-					<input class="Botoes" type="submit" value="Enviar" />
-					<input class="Botoes" type="reset" value="Apagar" />
+				<div class="Botoes">
+					<input type="submit" value="Enviar" />
+					<input type="reset" value="Apagar" />
 				</div>
 			</form>
 		</div>

@@ -23,17 +23,12 @@
 				echo '<script>alert("Atenção! O campo comentario não pode ficar vazio.")</script>';
 			}else if ($nome != '' && $email != '' && $comentario != '') {
 				$tabela = mysqli_query($conectar, "INSERT INTO comentarios (nome, email, comentario) VALUES ('$nome','$email','$comentario')");
-			}
 
-			if(!mysqli_query($conectar, $tabela))
-			{
-				echo '<script>alert("Comentário não cadastrado")</script>';
-			}
-			else 
-			{
+				header("Location: index.php");
 				echo '<script>alert("Comentário cadastrado")</script>'; 
 
-				header("Location: Index.html");
+			}else{
+				echo '<script>alert("Comentário não cadastrado")</script>';
 			}
 		?>
 
