@@ -24,7 +24,7 @@
 			}else if ($nome != '' && $email != '' && $comentario != '') {
 				$tabela = mysqli_query($conectar, "INSERT INTO comentarios (nome, email, comentario) VALUES ('$nome','$email','$comentario')");
 
-				header("Location: index.php");
+				header("Location: Forum.php");
 				echo '<script>alert("Comentário cadastrado")</script>'; 
 
 			}else{

@@ -34,7 +34,7 @@
 	{
 		echo 'Cadastro realizado'; 
 
-		header("Location: Login_usu_e_emp.php");
+		header("Location: Login.php");
 	}
 	
 ?>

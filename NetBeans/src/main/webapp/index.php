@@ -11,7 +11,7 @@
 
 		<div class="CampoComentarios">
 			<form class="Formulario" method="post" action="validar.php">
-				<h2>----- Comente abaixo -----</h2>
+				<center><h2 style="font-family: "Arial, Helvetica, sans-serif;">Comente</h2></center>
 				<div class="Campos">
 					<label>Nome:</label> <br>
 					<input type="text" name="nome" required autocomplete="off"/>
@@ -29,7 +29,7 @@
 
 				<div class="Botoes">
 					<input type="submit" value="Enviar" />
-					<input type="reset" value="Apagar" />
+					<input type="reset" value="Limpar" />
 				</div>
 			</form>
 		</div>

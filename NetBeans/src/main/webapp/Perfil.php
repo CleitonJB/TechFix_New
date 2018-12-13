@@ -91,9 +91,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Informações Básicas>
-            <imput name="update" type="submit" value="update data" >Alterar</imput>
-            </div>
+            <div class="h4 mt-0 title">Informações Básicas</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Idade:</strong></div>
               <div class="col-sm-8">24</div>

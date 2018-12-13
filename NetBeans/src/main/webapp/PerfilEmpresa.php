@@ -6,12 +6,6 @@
    $nome = $_SESSION['user']['nome'];
    $email = $_SESSION['user']['email'];
    $endereco = $_SESSION['user']['endereco'];
-   $fundador = $_SESSION['user']['fundador'];
-   $cnpj = $_SESSION['user']['cnpj'];
-   $estado = $_SESSION['user']['estado'];
-   $cidadeemp = $_SESSION['user']['cidadeemp'];
-   $bairro = $_SESSION['user']['bairro'];
-   $telefone = $_SESSION['user']['telefone'];
 
    //ISSO DEVE ESTAR NO INICIO DE CADA PÁGINA QUE O USUÁRIO USAR APÓS O LOGIN
 ?>
@@ -74,7 +68,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/usua.jpg" alt="Image"/></a></div>
           <div class="h2 title"><?php echo $nome ?></div><br>
-          <p class="category text-white"> Consertamos: Computadores, notebooks, celulares e impressoras </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>  <a class="btn btn-primary" href="editempresa.php" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Alterar Dados</a>
+          <p class="category text-white"> Consertamos: Computadores, notebooks, celulares e impressoras </p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contratos</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Avaliações</a>
         </div>
       </div>
       <div class="section">
@@ -100,45 +94,31 @@
             <div class="h4 mt-0 title">Informações Básicas</div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Nome:</strong></div>
-              <div class="col-sm-8"><?php echo $nome?></div>
+              <div class="col-sm-8"><?php echo $username?></div>
             </div>
-            <!--<div class="row mt-3">
+            <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Fundação:</strong></div>
-              <div class="col-sm-8"><?php echo $fundacao?></div>
-            </div>-->
+              <div class="col-sm-8">24 de agosto de 1957</div>
+            </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Fundador(es):</strong></div>
-              <div class="col-sm-8"><?php echo $fundador?></div>
+              <div class="col-sm-8">Gabriel da Silva Souza e Ana Carolina</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">E-mail:</strong></div>
-              <div class="col-sm-8"><?php echo $email?></div>
+              <div class="col-sm-8">empresa@company.com</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Telefone:</strong></div>
-              <div class="col-sm-8"><?php echo $telefone?></div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Estado:</strong></div>
-              <div class="col-sm-8"><?php echo $estado?></div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Telefone:</strong></div>
-              <div class="col-sm-8"><?php echo $cidadeemp?></div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Telefone:</strong></div>
-              <div class="col-sm-8"><?php echo $bairro?></div>
+              <div class="col-sm-8">(66) 6666-6666</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Endereço:</strong></div>
-              <div class="col-sm-8"><?php echo $endereco?></div>
+              <div class="col-sm-8"><?php echo $endereco?> </div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Telefone:</strong></div>
-              <div class="col-sm-8"><?php echo $cnpj?></div>
-            </div>
-              </div>
+              <div class="col-sm-4"><strong class="text-uppercase">Origem:</strong></div>
+              <div class="col-sm-8"> Rio de Janeiro, Brasil </div>
             </div>
           </div>
         </div>
