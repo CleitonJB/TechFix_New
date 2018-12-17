@@ -1,13 +1,7 @@
+/* Resto dos bagulhso de php ou html, sei lá */
+
 body {
 	background-color: #E5E5E5;
-}
-
-aside{
-	position: relative; 
-	float: right; 
-	top: 100px; 
-	left: -50px;
-	border-left: 1.2px solid black;
 }
 
 dd {
@@ -44,22 +38,44 @@ dt {
 	font-size: 14px;
 }
 
+/* Menu lateral de empresas */
+aside{
+	background: #FCDD44;
+	position: relative; 
+	left: 1210px;
+	top: 100px; 
+	border-left: 1.2px solid black;
+	height: 725px;
+}
+
+.MenuLateral{
+	position: fixed;
+	margin-right: -50px;
+	margin-top: -120px;
+}
+
+.MenuLateral dt{
+	color: white;
+	margin-top: 20px;
+	background: black;
+	text-align: center;
+	font-size: 20px;
+}
+
 .MenuLateral dd{
-	color: black;
-	text-shadow: 1px 2px 4px #FCDD44;
+	color: white;
+	width: 200px;
+	height: 25px;
+	background: black;
+	box-shadow: 0px 2px 5px white;
 }
 
 .MenuLateral dd:hover{
 	color: #FCDD44;
-	text-shadow: 1px 2px 4px black;
+	font-size: 18px;
 }
 
-.TodosComentarios{
-	margin-top: 50px;
-	margin-left: 30px;
-}
-
-/*  */
+/* Sistema de comentários */
 
 h2{
 	margin-top: 0px;
@@ -76,7 +92,7 @@ input, textarea{
 	background: black;
 	border-radius: 5px;
 	color: white;
-	border: 1px solid #1ab188;
+	border: 1px solid #FCDD44;
 }
 
 .CampoComentarios{
@@ -87,7 +103,16 @@ input, textarea{
 	background: black;
 	width: 425px;
 	border-radius: 10px;
-	border: 2px solid #1ab188;
+	border: 2px solid #FCDD44; 
+	box-shadow: 0px 7px 12px black;
+}
+
+.Campos{
+	margin-top: 15px;
+}
+
+.Campos input{
+	width: 330px;
 }
 
 .Botoes{
@@ -107,12 +132,4 @@ input, textarea{
 	color: white;
 	width: ;
 	height: 25px;
-}
-
-.Campos{
-	margin-top: 15px;
-}
-
-.Campos input{
-	width: 330px;
 }
