@@ -27,30 +27,30 @@
   	</head>
 	<body>
 
-	  	<!-- Header -->
-  	<div class="tm-header">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-  					<img style="position: relative; bottom: 15px;" onclick="location='Index.php'" class="LogoMarca" src="LogoMarca/LogoMarca.png" title="Seja Bem-vindo(a) ao TechFix!"> 
-  				</div>
-	  			<div class="col-lg-6 col-md-8 col-sm-9">
-	  				<div class="mobile-menu-icon">
-		              <i class="fa fa-bars"></i>
-		            </div>
-	  				<nav class="tm-nav" style="width: 700px">
-						<ul>
-							<li><a href="Index.php" class="active">Menu</a></li>
-							<li><a href="Sobre.html">Sobre</a></li>
-							<li><a href="Empresas.html">Empresas</a></li>
-							<li><a href="Login.php">Login</a></li>
-							<li><a href="Cadastro.php">Cadastro</a></li>
-						</ul>
-					</nav>		
-	  			</div>				
-  			</div>
-  		</div>	  	
-  	</div>
+		<!-- Header -->
+	  	<div class="tm-header">
+	  		<div class="container">
+	  			<div class="row">
+	  				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+	  					<img style="position: relative; bottom: 15px;" onclick="location='Index.php'" class="LogoMarca" src="LogoMarca/LogoMarca.png" title="Seja Bem-vindo(a) ao TechFix!"> 
+	  				</div>
+		  			<div class="col-lg-6 col-md-8 col-sm-9">
+		  				<div class="mobile-menu-icon">
+			              <i class="fa fa-bars"></i>
+			            </div>
+		  				<nav class="tm-nav" style="width: 700px">
+							<ul>
+								<li><a href="Index.php" class="active">Menu</a></li>
+								<li><a href="Sobre.html">Sobre</a></li>
+								<li><a href="Empresas.html">Empresas</a></li>
+								<li><a href="Login.php">Login</a></li>
+								<li><a href="Cadastro.php">Cadastro</a></li>
+							</ul>
+						</nav>		
+		  			</div>				
+	  			</div>
+	  		</div>	  	
+	  	</div>
 
 	    <!-- Menu lateral com as empresas por região -->
 	    <div class="MenuLateral">
@@ -90,7 +90,7 @@
 
     	<div class="CampoComentarios">
 			<form class="Formulario" method="post" action="validar.php">
-				<center><h2 style="font-family: "Arial, Helvetica, sans-serif;">Comente</h2></center>
+				<center><h2 style="font-family: "Arial, Helvetica, sans-serif;">Reclamação</h2></center>
 				<div class="Campos">
 					<label>Nome:</label> <br>
 					<input type="text" name="nome" required autocomplete="off"/>
@@ -162,57 +162,5 @@
 			}
 			$conn->close();
 		?>
-
-		<!-- CSSzinho dos comentários. Bagunçado, porém, funcional -->
-		<style type="text/css">
-			body{
-				background: #DFDFDE; /* Remover quando por no projeto principal. O mesmo já possuí um background definido #1CCA96 */
-			}
-
-			.Bloco {
-				border-radius: 15px;
-			    margin-top: 10px;
-			    margin-left: 170px;
-			    padding: 10px;
-			    background-color: black;
-			    border: 1px solid #FCDD44;
-			    width: 900px;
-			    height: 110px;
-			    color: #000000;
-			    box-shadow: 6px 4px 12px black;
-			    overflow-y: scroll;
-			}
-
-			.Nome{
-				color: #FCDD44;
-				margin-right: 10px;
-				text-shadow: 1px 2px 2px gray;
-			}
-
-			.Email{
-				position: relative;
-				top: 2px;
-				font-size: 12px;
-				margin-left: 10px;
-				color: white;
-				text-decoration: none;
-			}
-
-			.Email:hover{
-				text-decoration: underline;
-			}
-
-			.NomeEmail{
-				color: #FCDD44;
-				display: flex;
-				flex-direction: horizontal;
-			}
-
-			.Comentario{
-				font-size: 14px;
-				color: gray;
-				max-height: 90px;
-			}
-		</style>
       </body>
   </html>
