@@ -82,16 +82,41 @@
 					</div>
 					<div class="PrincipaisDestaques">
 						<center>
-							<button><a href=""> Principal tópico acessado 1 </a></button>
-							<button><a href=""> Principal tópico acessado 2 </a></button>
-							<button><a href=""> Principal tópico acessado 3 </a></button>
-							<button><a href=""> Principal tópico acessado 4 </a></button>
-							<button><a href=""> Principal tópico acessado 5 </a></button>
-							<button><a href=""> Principal tópico acessado 6 </a></button>
-							<button><a href=""> Principal tópico acessado 7 </a></button>
-							<button><a href=""> Principal tópico acessado 8 </a></button>
-							<button><a href=""> Principal tópico acessado 9 </a></button>
-							<button><a href=""> Principal tópico acessado 10 </a></button>
+							<button><a href=""> Tópico #1 </a></button>
+							<button><a href=""> Tópico #2 </a></button>
+							<button><a href=""> Tópico #3 </a></button>
+							<button><a href=""> Tópico #4 </a></button>
+							<button><a href=""> Tópico #5 </a></button>
+							<button><a href=""> Tópico #6 </a></button>
+							<button><a href=""> Tópico #7 </a></button>
+							<button><a href=""> Tópico #8 </a></button>
+							<button><a href=""> Tópico #9 </a></button>
+							<button><a href=""> Tópico #10 </a></button>
+						</center>
+					</div>
+				</div>
+
+				<!-- TOP 10 EMPRESAS -->
+				<div class="Seccao">
+					<div class="row">				
+						<div class="AlinaTopico" class="tm-section-header"">
+							<hr>
+							<h6><b>Principais empresas</b></h6> 
+							<hr>
+						</div>
+					</div>
+					<div class="PrincipaisDestaques">
+						<center>
+							<button><a href=""> Google </a></button>
+							<button><a href=""> Apple </a></button>
+							<button><a href=""> Microsoft </a></button>
+							<button><a href=""> Intel </a></button>
+							<button><a href=""> Acer </a></button>
+							<button><a href=""> Dell </a></button>
+							<button><a href=""> Linux </a></button>
+							<button><a href=""> HP </a></button>
+							<button><a href=""> Samsung </a></button>
+							<button><a href=""> Nokia </a></button>
 						</center>
 					</div>
 				</div>	
@@ -143,13 +168,39 @@
 		<!-- ARTICLE -->
 		<center>
 			<article>
-				
-					<div class="Banner">
-						<p></p>
+				<div class="Banner">
+					<div class="Banners">
+						<img src="http://www.imgworlds.com/wp-content/uploads/2015/12/18-CONTACTUS-HEADER.jpg">
+						<p>adbauda</p>
 					</div>
-				
+					<img class="Banners" src="http://images6.fanpop.com/image/photos/39900000/IMG-6250-PNG-kion-39961687-1024-577.png">
+					<img class="Banners" src="https://belicosa.com.br/wp-content/uploads/2017/01/cdbadb6315724a5285341b24f64b4b44_8ffdf2a0dddb4026a0355bbe9646e6e0_header.jpeg">
+					<img class="Banners" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA5m87H32OrO1lD75hwcqCKaouh30x-EW44Q1JYlGVSrqoJ-xm">
+					<img class="Banners" src="http://www.accudata.com/smartdata/wp-content/uploads/2013/10/img-7-1.jpg">
+				</div>
+
+				<button><a href="">Reclamações</a></button>
+
 			</article>
 		</center>
+
+		<script type="text/javascript">
+				
+			var slideIndex = 0;
+			carousel();
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("Banners");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+				}
+
+				slideIndex++;
+				if (slideIndex > x.length) {slideIndex = 1} 
+					x[slideIndex-1].style.display = "block"; 
+					setTimeout(carousel, 2000); 
+				}
+		</script>
 
 		<!-- FOOTER -->
 		<footer>
