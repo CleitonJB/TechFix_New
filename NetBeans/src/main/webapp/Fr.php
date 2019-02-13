@@ -167,16 +167,42 @@
 
 		<!-- ARTICLE -->
 		<center>
-			<article>
-				<div class="Banner">
-					<div class="Banners">
-						<img src="http://www.imgworlds.com/wp-content/uploads/2015/12/18-CONTACTUS-HEADER.jpg">
-						<p>adbauda</p>
-					</div>
-					<img class="Banners" src="http://images6.fanpop.com/image/photos/39900000/IMG-6250-PNG-kion-39961687-1024-577.png">
-					<img class="Banners" src="https://belicosa.com.br/wp-content/uploads/2017/01/cdbadb6315724a5285341b24f64b4b44_8ffdf2a0dddb4026a0355bbe9646e6e0_header.jpeg">
-					<img class="Banners" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA5m87H32OrO1lD75hwcqCKaouh30x-EW44Q1JYlGVSrqoJ-xm">
-					<img class="Banners" src="http://www.accudata.com/smartdata/wp-content/uploads/2013/10/img-7-1.jpg">
+			<article class="tm-banner">
+				<div class="flexslider flexslider-banner" class="Banner">
+					<ul class="slides">
+					  	<li>
+						    <div class="tm-banner-inner">
+								<h1 class="tm-banner-title">Seja <span>Bem-vindo(a) ao</span></h1>
+								<p class="tm-banner-subtitle" style="color: #FCDD44">TechFix!</p>
+								<a href="Sobre.html" class="tm-banner-link">Ir para</a>	
+							</div>
+							<img src="1.jpg" alt="Image" />	
+					    </li>
+					    <li>
+						    <div class="tm-banner-inner">
+								<h1 class="tm-banner-title">Encontre <span>O MELHOR</span></h1>
+								<p class="tm-banner-subtitle" style="color: #FCDD44">ORÇAMENTO</p>
+								<a href="#more" class="tm-banner-link">Ir para</a>	
+							</div>
+							<img src="2.jpg" alt="Image" />	
+					    </li>
+					    <li>
+						    <div class="tm-banner-inner">
+								<h1 class="tm-banner-title">Tire <span>suas</span></h1>
+								<p class="tm-banner-subtitle" style="color: #FCDD44">Dúvidas</p>
+								<a href="#more" class="tm-banner-link">Ir para</a>	
+							</div>
+					      <img src="3.jpg" alt="Image" />
+					    </li>
+					    <li>
+						    <div class="tm-banner-inner">
+								<h1 class="tm-banner-title">Participe <span>do</span></h1>
+								<p class="tm-banner-subtitle" style="color: #FCDD44">Fórum</p>
+								<a href="Forum.php" class="tm-banner-link">Ir para</a>	
+							</div>
+					      <img src="4.jpg" alt="Image" />
+					    </li>
+					</ul>
 				</div>
 
 				<button><a href="">Reclamações</a></button>
