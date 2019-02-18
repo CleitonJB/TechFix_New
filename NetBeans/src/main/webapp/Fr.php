@@ -20,7 +20,7 @@
 	  		<div class="container">
 	  			<div class="row">
 	  				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-	  					<img onclick="window.open('Index.php', '_self');" class="LogoMarca" src="LogoMarca/LogoMarca.png" title="Seja Bem-vindo(a) ao TechFix!">
+	  					<img onclick="window.open('index.php', '_self');" class="LogoMarca" src="LogoMarca/LogoMarca.png" title="Seja Bem-vindo(a) ao TechFix!">
 	  				</div>
 		  			<div class="col-lg-6 col-md-8 col-sm-9">
 		  				<div class="mobile-menu-icon">
@@ -28,7 +28,7 @@
 			            </div>
 		  				<nav class="tm-nav" style="width: 700px">
 							<ul>
-								<li><a href="Index.php" class="active">Menu</a></li>
+								<li><a href="index.php" class="active">Menu</a></li>
 								<li><a href="Sobre.html">Sobre</a></li>
 								<li><a href="Empresas.html">Empresas</a></li>
 								<li><a href="Login.php">Login</a></li>
@@ -52,17 +52,26 @@
 
 			<div class="FundoTopicos">
 				<div class="Tópico">
-					<h4> Computador não liga </h4> <!-- Título --> <br> <br>
+					<h4> Computador não liga </h4> <!-- Título --> 
+					<br> <br>
 					<p align="justify">Assim como a fonte, qualquer problema na placa mãe o computador pode não ligar, ou as vezes a luz de power acende, mas nada acontece. Verifique se todos os cabos estão conectados corretamente, principalmente o da alimentação da placa mãe e o do processador. ... Vai ter que investir em outra placa-mãe.</p> <!-- Descrição -->
 				</div>
 
 				<div class="Tópico">
-					<h4> Computador não liga </h4> <!-- Título --> <br> <br>
+					<h4> Computador não liga </h4> <!-- Título --> 
+					<br> <br>
 					<p align="justify">Assim como a fonte, qualquer problema na placa mãe o computador pode não ligar, ou as vezes a luz de power acende, mas nada acontece. Verifique se todos os cabos estão conectados corretamente, principalmente o da alimentação da placa mãe e o do processador. ... Vai ter que investir em outra placa-mãe.</p> <!-- Descrição -->
 				</div>
 
 				<div class="Tópico">
-					<h4> Computador não liga </h4> <!-- Título --> <br> <br>
+					<h4> Computador não liga </h4> <!-- Título --> 
+					<br> <br>
+					<p align="justify">Assim como a fonte, qualquer problema na placa mãe o computador pode não ligar, ou as vezes a luz de power acende, mas nada acontece. Verifique se todos os cabos estão conectados corretamente, principalmente o da alimentação da placa mãe e o do processador. ... Vai ter que investir em outra placa-mãe.</p> <!-- Descrição -->
+				</div>
+
+				<div class="Tópico">
+					<h4> Computador não liga </h4> <!-- Título --> 
+					<br> <br>
 					<p align="justify">Assim como a fonte, qualquer problema na placa mãe o computador pode não ligar, ou as vezes a luz de power acende, mas nada acontece. Verifique se todos os cabos estão conectados corretamente, principalmente o da alimentação da placa mãe e o do processador. ... Vai ter que investir em outra placa-mãe.</p> <!-- Descrição -->
 				</div>
 			</div>
@@ -71,6 +80,23 @@
 		<!-- ASIDE -->
 		<aside>
 			<center>
+				<!-- MODERADORES DO SITE -->
+				<div class="Seccao">
+					<div class="row">				
+						<div class="AlinaTopico" class="tm-section-header"">
+							<hr>
+							<h6><b>MODs do TechFix</b></h6> 
+							<hr>
+						</div>
+					</div>
+					<div class="PrincipaisDestaques">
+						<center>
+							<button><a href=""> GabrielProgrammer </a></button>
+							<button><a href=""> ThePunisher </a></button>
+							<button><a href=""> Sr.Drago </a></button>
+						</center>
+					</div>
+				</div>
 				<!-- MAIS ACESSADOS -->
 				<div class="Seccao">
 					<div class="row">				
@@ -165,72 +191,80 @@
 			</center>
 		</aside>
 
-		<!-- ARTICLE -->
-		<center>
-			<article class="tm-banner">
-				<div class="flexslider flexslider-banner" class="Banner">
-					<ul class="slides">
-					  	<li>
-						    <div class="tm-banner-inner">
-								<h1 class="tm-banner-title">Seja <span>Bem-vindo(a) ao</span></h1>
-								<p class="tm-banner-subtitle" style="color: #FCDD44">TechFix!</p>
-								<a href="Sobre.html" class="tm-banner-link">Ir para</a>	
-							</div>
-							<img src="1.jpg" alt="Image" />	
-					    </li>
-					    <li>
-						    <div class="tm-banner-inner">
-								<h1 class="tm-banner-title">Encontre <span>O MELHOR</span></h1>
-								<p class="tm-banner-subtitle" style="color: #FCDD44">ORÇAMENTO</p>
-								<a href="#more" class="tm-banner-link">Ir para</a>	
-							</div>
-							<img src="2.jpg" alt="Image" />	
-					    </li>
-					    <li>
-						    <div class="tm-banner-inner">
-								<h1 class="tm-banner-title">Tire <span>suas</span></h1>
-								<p class="tm-banner-subtitle" style="color: #FCDD44">Dúvidas</p>
-								<a href="#more" class="tm-banner-link">Ir para</a>	
-							</div>
-					      <img src="3.jpg" alt="Image" />
-					    </li>
-					    <li>
-						    <div class="tm-banner-inner">
-								<h1 class="tm-banner-title">Participe <span>do</span></h1>
-								<p class="tm-banner-subtitle" style="color: #FCDD44">Fórum</p>
-								<a href="Forum.php" class="tm-banner-link">Ir para</a>	
-							</div>
-					      <img src="4.jpg" alt="Image" />
-					    </li>
-					</ul>
+		<!-- Banner 
+		<div>
+			<center>
+				<div class="Carrossel">
+					<!-- Imagens #1 
+					<div class="mySlides">
+					  	<img src="https://i.ytimg.com/vi/L6NxnYln79c/maxresdefault.jpg">
+					  	<div class="Titulo">
+					  		<h1>Top #1</h1>
+					  	</div>
+					  	
+					</div>
+					<!-- Imagens #2 
+					<div class="mySlides">
+				  		<img src="img/2.jpg">
+				  		<div class="Titulo">
+					  		<h1>Top #2</h1>
+					  	</div>
+				  	</div>
+				  	<!-- Imagens #3 
+				  	<div class="mySlides">
+				  		<img src="img/3.jpg">
+				  		<div class="Titulo">
+					  		<h1>Top #3</h1>
+					  	</div>
+				  	</div>
+				  	<!-- Imagens #4 
+				  	<div class="mySlides">
+				  		<img src="img/4.jpg">
+				  		<div class="Titulo">
+					  		<h1>Top #4</h1>
+					  	</div>
+					</div>
+					<!-- Imagens #5 
+					<div class="mySlides">
+				  		<img src="img/5.jpg">
+				  		<div class="Titulo">
+					  		<h1>Top #5</h1>
+					  	</div>
+					</div>
+				  	<div>
+				  		<!-- Botão Esquerdp 
+				    	<div class="Bt_esquerdo" onclick="plusDivs(-1)">&#10094;</div>
+				    	<!-- Botão Direito 
+				    	<div class="Bt_direito" onclick="plusDivs(1)">&#10095;</div>
+				  	</div>
 				</div>
+			</center>
 
-				<button><a href="">Reclamações</a></button>
+			<!-- Carrossel JavaScript 
+			<script type="text/javascript">
+			 	var slideIndex = 1;
+				showDivs(slideIndex);
 
-			</article>
-		</center>
-
-		<script type="text/javascript">
-				
-			var slideIndex = 0;
-			carousel();
-			function carousel() {
-				var i;
-				var x = document.getElementsByClassName("Banners");
-				for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none"; 
+				function plusDivs(n) {
+				    showDivs(slideIndex += n);
 				}
 
-				slideIndex++;
-				if (slideIndex > x.length) {slideIndex = 1} 
-					x[slideIndex-1].style.display = "block"; 
-					setTimeout(carousel, 2000); 
-				}
-		</script>
+				function showDivs(n) {
+				    var i;
+				    var x = document.getElementsByClassName("mySlides");
+				    if (n > x.length) {
+				    	slideIndex = 1
+				    } 
+				    if (n < 1) {
+				    	slideIndex = x.length
+				    } 
 
-		<!-- FOOTER -->
-		<footer>
-			
-		</footer>
+				    for (i = 0; i < x.length; i++) {
+				        x[i].style.display = "none"; 
+				    }
+				    x[slideIndex-1].style.display = "block"; 
+				} 
+			</script>	-->
+		</div>
 	</body>
 </html>
